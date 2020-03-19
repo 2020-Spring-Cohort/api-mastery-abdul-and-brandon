@@ -16,9 +16,9 @@ public interface MovieStorage {
     Iterable<Movie> findAllByArtistName(String name);
 
 
-    Iterable<Movie> findAllByAlbum(Genre genre);
+    Iterable<Movie> findAllByGenre(Genre genre);
 
-    Iterable<Movie> findAllyByAlbumTitle(String title);
+    Iterable<Movie> findAllyByGenreTitle(String title);
 
     Iterable<Movie> findAllMovies();
 
