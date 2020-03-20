@@ -3,7 +3,7 @@ package org.wcci.apimastery.Storage;
 import java.util.Optional;
 
 import org.springframework.data.repository.CrudRepository;
-import org.wcci.apimastery.Models.Genre;
+import org.wcci.apimastery.Entities.Genre;
 
 
 public interface GenreRepository extends CrudRepository<Genre, Long> {

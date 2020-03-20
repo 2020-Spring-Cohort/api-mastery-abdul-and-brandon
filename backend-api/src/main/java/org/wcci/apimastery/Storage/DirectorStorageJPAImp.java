@@ -2,7 +2,7 @@ package org.wcci.apimastery.Storage;
 
 import org.hibernate.mapping.Collection;
 import org.springframework.stereotype.Service;
-import org.wcci.apimastery.Models.Director;
+import org.wcci.apimastery.Entities.Director;
 import org.wcci.apimastery.models.Artist;
 
 import java.util.Optional;

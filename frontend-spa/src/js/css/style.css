@@ -1,0 +1,88 @@
+/*
+
+71cbd4 sky blue
+0da0d3 dark turquiose
+dee1cc bone
+ec762e chocolate
+
+
+*/
+
+:root {
+    --color-section-bg: #71cbd4;
+    --color-txt: #064257;
+    --color-txt-hover: #0a84ad;
+    --color-main-bg: #dee1cc;
+    --color-header-footer: #ec762e;
+
+}
+
+body {
+    background-color: var(--color-main-bg);
+    color: var(--color-txt);
+    font-family: 'Raleway', sans-serif;
+    user-select: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: var(--color-txt-hover);
+}
+
+
+section {
+    background-color: var(--color-section-bg);
+    border-radius: 10px;
+
+}
+
+
+.button {
+    background-color: var(--color-txt-hover);
+    border-radius: 10px;
+    border: 1px solid #337bc4;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 14px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #528ecc;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom, var(--color-txt-hover) 55%, var(--color-section-bg) 100%);
+    background-color: var(--color-txt-hover);
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+
+}
+
+
+header,
+footer {
+    background-color: var(--color-header-footer);
+}
+
+.submit-button {
+    border-radius: 0 0 10px 10px;
+}
+
+
+.movie-duration::before {
+    content: "("
+}
+
+.movie-duration::after {
+    content: ")"
+}
