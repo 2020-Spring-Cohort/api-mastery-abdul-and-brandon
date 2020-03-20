@@ -1,7 +1,7 @@
 package org.wcci.apimastery.Storage;
 
 import org.hibernate.mapping.Collection;
-import org.wcci.apimastery.Models.Director;
+import org.wcci.apimastery.Entities.Director;
 
 import java.util.Optional;
 
