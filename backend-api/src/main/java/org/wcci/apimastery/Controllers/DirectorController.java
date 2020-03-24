@@ -2,23 +2,14 @@ package org.wcci.apimastery.Controllers;
 
 import org.hibernate.mapping.Collection;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-<<<<<<< HEAD
-import org.wcci.apimastery.Models.Director;
-
-=======
 import org.wcci.apimastery.Entities.Director;
-import org.wcci.apimastery.Storage.ArtistStorage;
->>>>>>> dev
 import org.wcci.apimastery.Storage.DirectorStorage;
 
-<<<<<<< HEAD
-
 import java.util.Optional;
-=======
-import java.util.Collection;
->>>>>>> dev
+
 
 @RestController
 @RequestMapping("/directors")
